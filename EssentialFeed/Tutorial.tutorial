@@ -1,0 +1,33 @@
+@Tutorial(time: First) {
+    @Intro(title: "Scheme") {
+        // A scheme is a collection of settings that specify the target to build for a project, the build configurations to use, and the exec env to use when the product is launched.
+        // Think of scheme as instructions(recipe steps) for building, running, testing, profiling, analyzing and archiving the project.
+        // When you open an existing project, or create a new one . Xcode automatically creates a scheme for each target.
+        // the defualt scheme is named after your project and will already include your test target if you checked the Include unit test checkbox when creating your project. If you are adding a test target to an exisiting project , you may need to configure your default scheme to run the tests.
+        // Managing schemes . project schemes by clicking on the scheme drop down list and clicking on Manage Scheme .
+        
+        @Image(source: <#file#>, alt: "<#accessible description#>")
+    }
+    
+    @Section(title: "<#text#>") {
+        @ContentAndMedia {
+            <#text#>
+            
+            @Image(source: <#file#>, alt: "<#accessible description#>")
+        }
+        
+        @Steps {
+            @Step {
+                <#text#>
+                
+                @Image(source: <#file#>, alt: "<#accessible description#>")
+            }
+            
+            @Step {
+                <#text#>
+                
+                @Code(name: "<#display name#>", file: <#filename.swift#>)
+            }
+        }
+    }
+}
